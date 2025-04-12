@@ -1,0 +1,31 @@
+{
+  "nome_do_gpt": "GPT Customizado 125",
+  "categoria": "Automação com Inteligência Jurídica",
+  "blocos_funcionais": [
+    {
+      "id": "b125",
+      "nome": "GPT Customizado 125",
+      "tipo": "ação",
+      "descricao": "GPT institucional com lógica fuzzy aplicada para modelagem normativa",
+      "fuzzy": {
+        "α": 0.71,
+        "β": 0.88,
+        "γ": 0.71,
+        "δ": 0.88,
+        "ε": 0.93,
+        "θ": 0.73
+      },
+      "S(x)": 0.02
+    }
+  ],
+  "conexoes": [
+    [
+      "start",
+      "b125"
+    ],
+    [
+      "b125",
+      "end"
+    ]
+  ]
+}
